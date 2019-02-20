@@ -1,0 +1,43 @@
+{
+  "name": "node-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/bin/start.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "apollo-server-express": "^2.4.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "bluebird": "^3.5.3",
+    "body-parser": "latest",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "graphql": "^14.1.1",
+    "http-errors": "~1.6.2",
+    "lodash": "latest",
+    "mongoose": "^5.4.13",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+    "pug": "2.0.0-beta11",
+    "redis": "^2.8.0",
+    "request": "latest",
+    "request-promise": "^4.2.4",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "latest",
+    "when": "^3.7.8",
+    "graphql-tools": "latest"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "node-uuid": "^1.4.8"
+  }
+}
